@@ -1,0 +1,71 @@
+/* .carousel-item {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+} */
+
+h5 {
+  font-size: 80px;
+  font-family: "Permanent Marker", cursive;
+}
+
+p {
+  font-size: 40px;
+  margin-bottom: 200px;
+  /* font-family: "Shadows Into Light", cursive; */
+  font-family: "Permanent Marker", cursive;
+}
+#corousel-inner {
+  margin-top: 30px;
+}
+
+/* .background {
+  width: 1920px;
+  height: 1080px;
+  background-repeat: no-repeat;
+  display: block;
+  position: fixed;
+  background-position: 0 500px;
+} */
+/* .background {
+  width: 100vw;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+} */
+
+#myCarousel {
+  width: 100%;
+}
+.carousel-control {
+  margin-top: 20px;
+}
+.carousel-inner {
+  width: 100%;
+  height: 100vh;
+}
+/* .carousel-item {
+  background: url(/assets/images/1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-item {
+  background: url(/assets/images/2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-item {
+  background: url(/assets/images/1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */

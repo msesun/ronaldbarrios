@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="/home">Logo</a>
+  <a class="navbar-brand" href="/home">Ronald Barrios</a>
   <button
     class="navbar-toggler"
     type="button"
@@ -21,6 +21,7 @@
       <li class="nav-item">
         <a class="nav-link" href="/about">About</a>
       </li>
+
       <li class="nav-item">
         <a class="nav-link" href="/gallery">Gallery</a>
       </li>
@@ -40,12 +41,25 @@
           aria-haspopup="true"
           aria-expanded="false"
         >
-          Sponsors
+          Endorsements
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Soultone</a>
-          <a class="dropdown-item" href="#">Leijva</a>
-          <a class="dropdown-item" href="#">LP</a>
+          <a
+            class="dropdown-item"
+            href="https://www.soultonecymbals.com/artist/ronald-barrios"
+            target="_blank"
+            >Soultone Cymbals</a
+          >
+          <a
+            class="dropdown-item"
+            href="https://leivapercussion.com/en/ronald-barrios-en/"
+            target="_blank"
+            >Leiva Percussion</a
+          >
+        </div>
+        <div class="sponsor-logo">
+          <a href=""></a><img src="/assets/images/soultone-black.png" />
+          <a href=""></a><img src="/assets/images/leiva-black.png" />
         </div>
       </li>
     </ul>
@@ -53,67 +67,3 @@
 </nav>
 
 <router-outlet></router-outlet>
-
-<!-- <div class="container">
-  <div class="jumbotron">
-    <h2>Angular & Bootstrap Demo</h2>
-  </div>
-  <div class="panel panel-primary">
-    <div class="panel-heading">
-      Status
-    </div>
-    <div class="panel-body">
-      <h3>{{ title }}</h3>
-    </div>
-  </div>
-</div> -->
-
-<!-- <div class="container">
-  <ngb-tabset>
-    <ngb-tab title="Simpler">
-      <template ngbTabContent>
-        <p>This is the content of the first Tab</p>
-        <ngb-alert [dismissible]="false"
-          ><strong>Warning!</strong> This is an alert!</ngb-alert
-        >
-      </template>
-    </ngb-tab>
-    <ngb-tab>
-      <template ngbTabTitle><b>Fancy</b>title</template>
-      <template ngbTabContent>
-        <p>This is the content of the second tab!</p>
-        <p><ngb-progressbar type="success" [value]="25"></ngb-progressbar></p>
-        <p>
-          <ngb-progressbar type="info" [value]="50"></ngb-progressbar>
-        </p>
-        <p>
-          <ngb-progressbar type="warning" [value]="75"></ngb-progressbar>
-        </p>
-        <p>
-          <ngb-progressbar type="danger" [value]="100"></ngb-progressbar>
-        </p>
-      </template>
-    </ngb-tab>
-    <ngb-tab title="Disabled" [disabled]="true">
-      <template ngbTabContent> </template>
-    </ngb-tab>
-  </ngb-tabset>
-</div> -->
-
-<!-- <ngb-tabset>
-  <ngb-tab title="Tab One">
-    <ng-template ngbTabContent>
-      <p>Tab one content here</p>
-    </ng-template>
-  </ngb-tab>
-  <ngb-tab title="Tab Two">
-    <ng-template ngbTabContent>
-      <p>Tab two content here</p>
-    </ng-template>
-  </ngb-tab>
-  <ngb-tab title="Tab Three">
-    <ng-template ngbTabContent>
-      <p>Tab three content here</p>
-    </ng-template>
-  </ngb-tab>
-</ngb-tabset> -->
