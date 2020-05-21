@@ -1,16 +1,4 @@
-/*!
- * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
- */
-/* body {
-  background: url("/src/assets/images/1.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-} */
-
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400, 300);
 /* Space out content a bit */
 body {
   padding-top: 1.5rem;
@@ -25,16 +13,20 @@ body {
   padding-left: 1rem;
 }
 
-/* Custom page header */
-.header {
-  padding-bottom: 1rem;
-  border-bottom: 0.05rem solid #e5e5e5;
-}
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 3rem;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Permanent Marker", cursive;
+}
+
+p {
+  font-family: "Varela Round", sans-serif;
 }
 
 /* Custom page footer */
@@ -89,4 +81,24 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+@media (max-width: 768px) {
+  .gal-container .modal-content {
+    height: 250px;
+  }
+}
+/* Footer Style */
+i.red {
+  color: #bc0213;
+}
+.gal-container {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+footer {
+  font-family: "Varela Round", sans-serif;
+}
+footer a,
+footer a:hover {
+  color: #88c425;
 }
