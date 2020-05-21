@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Passion Project: Latin Percussionist
-
-# Ronald Barrios
-=======
 <img width="746" src="https://user-images.githubusercontent.com/55994508/81608292-a83ceb00-939b-11ea-8244-f0f224b54f9d.png" alt="logo" style="display: block; margin: 0 auto" />
 
 # Project# 5: Latin Percussionist by Rixio Barrios
@@ -36,7 +31,6 @@ This is my passion project that replace the current representation of the artist
 - [Latin Percussionist](https://www.ronaldbarrios.com)
 
 # The Project
->>>>>>> Installed the Heroku CLI before deploying
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
